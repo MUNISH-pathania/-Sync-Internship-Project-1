@@ -6,22 +6,27 @@
     <title>LogIn/signUp</title>
 </head>
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 <body>
 <div class="containner">
     <div class="box-1">
-    <h3>Welcome back</h3>
-    <p>Welcome back! Please enter your details</p>
-    <p>Email</p>
-    <input type="text" placeholder = "Enter your email ">
-    <p>Password</p>
-    <input type="password">
-    <input type="checkbox">
-    <p>Remember for 30 days</p>
-    <a href="">Forgot password</a>
+    <h1 class="h1">Welcome back</h1>
+    <p class="h-text">Welcome back! Please enter your details</p>
+    <p class="email">Email</p>
+    <input type="text" placeholder = "Enter your email " class="input">
+    <p class="password">Password</p>
+    <input type="password" class="input">
+    
+    <label class="checkbox">Remember for 30 days
+        <input type="checkbox" class="check-box">
+        <a href="" class="forget-password">Forgot password</a>
+    </label>
 
-    <input type="button" value="LogIn">
-    <input type="button" value="LogIn with google"/>
-    <p>Don't have account? <a href="">signUp</a></p>
+    <input type="button" value="Log in" class="login btn ">
+    <input type="button" value="Log in with google" class="google btn"/>
+    <p class="sign-up">Don't have account? <a href="">signUp</a></p>
 </div>
 </div>
 
