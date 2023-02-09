@@ -17,15 +17,18 @@ font-family: 'Roboto', sans-serif;
    
 .box-1{
     padding: 175px 1px 1px 206px;
+    /* display: grid; */
     
 }
 .circle{
     padding:100px;
-    background: rgb(144, 82, 243);
+    background: linear-gradient(rgb(144, 82, 243), #8e94d7);
     border-radius: 50%;
 margin: 400px 0 0 300px ;
     width: 30px;
     height: 30px;
+    box-shadow :10px rgb(144, 82, 243);
+    
 }
 .input{
     padding:12px 210px 15px 15px;
@@ -51,7 +54,7 @@ float: left;
 .login{
     display: flex;
     padding: 18px 197px 15px 189px;
-    background:rgb(144, 82, 243) ;
+    background: linear-gradient(rgb(144, 82, 243), #8e94d7);
     color: white;
     border: none;
 }
@@ -72,4 +75,112 @@ float: left;
 }
 p{
     color: rgb(152, 152, 152);
+}
+
+@media screen and (max-width: 1280px) {
+    .box-1 {
+        padding: 175px 1px 1px 97px;
+}
+.circle{
+    margin: 358px 0 0 248px ;
+}
+}
+
+@media screen and (max-width: 1180px) {
+    .box-1 {
+        padding: 175px 1px 1px 103px;
+}
+.circle{
+    margin: 400px 0 0 206px ;
+}
+}
+@media screen and (max-width: 1024px) {
+    .box-1 {
+        padding: 23px 1px 1px 37px;
+}
+.circle{
+    margin: 216px 0 0 150px ;
+}
+}
+@media screen and (max-width: 912px) {
+    .box-1 {
+        padding: 122px 1px 1px 7px;
+}
+.circle{
+    margin: 307px 0 0 121px;
+}
+}
+@media screen and (max-width: 412px) {
+        .img{
+            width: 0;
+            height: 0;
+            /* background:rgb(236, 235, 235); */
+            /* float: right; */
+        }
+        .box-1{
+            display: grid;
+            padding: 150px 1px 1px 1px;
+        }
+.circle{
+    margin: 49px 1px 1px -230px;
+    padding:30px;
+    /* background: rgb(144, 82, 243); */
+    border-radius: 50;
+    width: 0;
+    height: 0;
+}
+.forget-password{
+    margin: 1px 1px 1px 1px ;
+}
+
+.input{
+    padding:12px 210px 15px 15px;
+    border-radius: 7px;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+}
+@media screen and (max-width: 540px) {
+    .img{
+        width: 0;
+        height: 0;
+        background:rgb(236, 235, 235); 
+       float: right; 
+    }  
+     .box-1{
+        display: grid;
+        padding: 150px 1px 1px 1px;
+    }
+.circle{
+margin: 34px 1px 1px -326px;
+padding:30px;
+border-radius: 50;
+}
+.forget-password{
+margin: 1px 1px 1px 1px ;
+} 
+
+.input{
+padding:12px 210px 15px 15px;
+border-radius: 7px;
+border: 1px solid black;
+font-size: 20px;
+} 
+
+}
+@media screen and (max-width: 768px) {
+    .box-1 {
+        padding: 122px 1px 1px 7px;
+}
+.img{
+    width: 0;
+    height: 0;
+}
+
+    .circle{
+        margin: 10px 1px 1px -415px;
+        padding:30px;
+        border-radius: 50;
+        }
 }
